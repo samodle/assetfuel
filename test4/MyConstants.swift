@@ -11,6 +11,6 @@ import Foundation
 struct PublicConstants{
     static let BigScreenCutoff: CGFloat = 750
     static let BigHeightAnchor: CGFloat = 300
-    static let SmallHeightAnchor: CGFloat = 170
+    static let SmallHeightAnchor: CGFloat = 120
  
 }

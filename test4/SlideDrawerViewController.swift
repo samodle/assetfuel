@@ -140,13 +140,14 @@ class SlideDrawerViewController: UIViewController, SMSegmentViewDelegate {
             let TrendsCardHeight = TrendsCard.heightAnchor.constraint(equalToConstant: PublicConstants.BigHeightAnchor)
             let SigmaControlCardHeight = SigmaControlCard.heightAnchor.constraint(equalToConstant: PublicConstants.BigHeightAnchor)
             let PanoFourHeight = PanoFourCard.heightAnchor.constraint(equalToConstant: PublicConstants.BigHeightAnchor)
-            let ContainerViewHeight = ContainerViewNew.heightAnchor.constraint(equalToConstant: 1600)
+            let ContainerViewHeight = ContainerViewNew.heightAnchor.constraint(equalToConstant: 1200)
             
             LossCompassCardHeight.isActive = true
             TrendsCardHeight.isActive = true
             SigmaControlCardHeight.isActive = true
             PanoFourHeight.isActive = true
             ContainerViewHeight.isActive = true
+            
         } else
         {
             let LossCompassCardHeight = LossCompassCard.heightAnchor.constraint(equalToConstant: PublicConstants.SmallHeightAnchor)
