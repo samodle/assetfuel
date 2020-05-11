@@ -1,2 +1,2 @@
-# assetfuel_iOS
-et tu assetfuel?
+# assetfuel for iPhones
+analytics dashboard for manufacturing
